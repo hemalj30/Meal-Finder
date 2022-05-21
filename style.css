@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 100vh;
+    font-family: 'Crimson Text', serif;
+    background-color: #ffff7b;
+
+
+}
+
+.container{
+
+    /*height: 100%;*/
+    margin: auto;
+    max-width: 800px;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.searching{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+
+.choice{
+
+    width: 300px;
+    margin: 0px;
+    font-size: 14px;
+    border: 1px solid #caff5f;
+    border-radius: 4px;
+    padding: 8px 10px;
+
+
+}
+
+.search{
+
+    cursor: pointer;
+    margin: 0px;
+    border: 1px solid #cdff69;
+    border-radius: 4px;
+    padding: 8px 10px;
+
+
+
+}
+
+
+.random{
+
+    cursor: pointer;
+    margin-left: 5px;
+    border: 1px solid #cdff69;
+    border-radius: 4px;
+    padding: 8px 10px;
+
+}
+
+/*
+@media(max-width: 500px) {
+
+    .choice{
+
+        display: block;
+        width: 100%;
+    }
+
+    .search{
+
+        display: block;
+        margin: autos;
+    }
+
+    .random{
+
+        display: block;
+    }    
+
+
+}*/
